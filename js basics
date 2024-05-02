@@ -1,10 +1,11 @@
 # JS Def
 js is scripting language that is used to build dynamic websites or for dynamic programming
+we can divide are code into diff files and we can combine them by importing them into parent file according to need called modularity 
 
 # VARIABLES
-* VAR has global and functional scope  can be redecleare and overwrite.
+* VAR has global and functional scope  can be redecleare and overwrite.  VAR KEYWORDS ARE defi e wit undefine value in memroy called hoisting
 
-* LET has functional scope can't be redecleare but overwrite.
+* LET has functional scope can't be redecleare but overwrite.  temporar dead zone means if access it before initiallization then we will get referance error 
 
 * CONST has functional scope can't be overwrite and redecleare. 
 
@@ -17,7 +18,7 @@ non premitive obj array
 * Number,String,BigInt,Boolean,Symbol,Object,undefine,null
 * object has keys and values
 
-# OBJECT METHODS
+# string METHODS
 LET STR="SAHIL"
 * STR[2] WILL GIVE THE CHAR AT 2 INDEX
 
@@ -93,4 +94,18 @@ lastIndexOf:
 2. It takes an optional parameter, separator, which specifies how to separate the elements in the resulting string.
 3. If no separator is provided, the elements are joined with a comma by default.
 
+* ToUpperCase()
+let st="  HeLlo guys guys";
+console.log(st.toUpperCase());
 
+* ToLowerCase()
+console.log(st.toLowerCase());
+
+* trim()
+console.log(st.trim()); // remvoes the space from start to end 
+console.log(st.trimStart()) // removes the space from start
+console.log(st.trimEnd()) // removes the space ffrom end 
+console.log(st.replace("guys","dosto")) // replaces the first word with last word and if we have multiple same substrings then it will replace with the first one
+
+react
+cors 
