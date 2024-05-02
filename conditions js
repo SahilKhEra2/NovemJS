@@ -1,0 +1,4 @@
+* if else-if ledders
+* falsy values in js 
+ falsy value are the values that resolves to boolean false in js 
+// flase,0," " empty String,null,undefined,nan 
